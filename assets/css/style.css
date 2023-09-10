@@ -113,6 +113,7 @@ header {
 #About-Us {
     margin: 100px 0px !important;
 }
+
 #Browse-Top-Category h1,
 #Become-an-Instructor .container .row .part1 h2,
 #About-Us .container .row .part1 h2,
@@ -131,6 +132,7 @@ header {
 #Why-Choose-Us .container .row .part2 h2 {
     color: #136ad5;
 }
+
 #Browse-Top-Category .row .card {
     width: 17.5rem;
     display: flex;
@@ -140,13 +142,16 @@ header {
     background-color: #f3f7fd;
     border: none;
     margin: 5px 0px;
-}#Browse-Top-Category .row{
+}
+
+#Browse-Top-Category .row {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     margin: 0px;
 }
-#Browse-Top-Category .row .card{
+
+#Browse-Top-Category .row .card {
     width: 16rem;
     display: flex;
     flex-direction: row;
@@ -156,6 +161,7 @@ header {
     background-color: #f3f7fd;
     border: none;
 }
+
 #Become-an-Instructor,
 #About-Us,
 #The-Right-Courses-For-You,
@@ -163,6 +169,7 @@ header {
     background-color: #f8f9fa;
     position: relative;
 }
+
 #Become-an-Instructor .container .row .part1 .icon-p,
 #About-Us .container .row .part1 .icon-p {
     display: flex;
@@ -189,20 +196,27 @@ header {
     position: relative;
     top: -50px;
 }
+
 #Become-an-Instructor .container .row,
 #About-Us .container .row {
     justify-content: space-between;
     align-items: center;
 }
-#Start-We-Have-Best-Education .row, #The-Right-Courses-For-You .row,#Pricing .row,#School-News .row{
+
+#Start-We-Have-Best-Education .row,
+#The-Right-Courses-For-You .row,
+#Pricing .row,
+#School-News .row {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin: 0px;
 }
-#School-News img{
+
+#School-News img {
     width: 200px;
 }
+
 #Start-We-Have-Best-Education .row .card {
     width: 22rem;
     display: flex;
@@ -218,6 +232,7 @@ header {
 #Testimonials .card-body {
     width: 600px;
 }
+
 #The-Right-Courses-For-You,
 #Start-We-Have-Best-Education,
 #School-News,
@@ -227,6 +242,7 @@ header {
     justify-content: center;
     align-items: center;
 }
+
 .icon-Browse-Top-Category {
     width: 25px;
     height: 25px;
@@ -235,6 +251,7 @@ header {
     border-radius: 20px;
     padding: 10px;
 }
+
 #The-Right-Courses-For-You .row .card {
     width: 20rem;
     padding-left: 0px;
@@ -290,6 +307,7 @@ header {
     width: 500px;
     box-shadow: #d0e1f7 190px -60px 0px 2px;
 }
+
 #About-Us .row {
     display: flex;
     justify-content: center;
@@ -300,6 +318,7 @@ header {
     border: none;
     box-shadow: rgba(128, 128, 128, 0.75) 2px 0px 8px 0px;
 }
+
 #Pricing .row .card .card-body {
     display: flex;
     flex-direction: column;
@@ -489,9 +508,11 @@ footer {
     width: 100%;
     color: white;
 }
+
 footer .container .row {
     justify-content: space-between;
 }
+
 footer .box-3 .the-image {
     display: flex;
     flex-wrap: wrap;
@@ -536,10 +557,11 @@ footer,
     .navbar-brand {
         display: none;
     }
-    #The-Right-Courses-For-You .row .card img{
+
+    #The-Right-Courses-For-You .row .card img {
         width: 17rem;
-        flex-shrink: -5;
     }
+
     .bg-light {
         width: 300px;
         margin-bottom: 10px;
@@ -566,27 +588,36 @@ footer,
     .carousel-item img {
         height: 100vh !important;
     }
-    #School-News .row .card{
+
+    #School-News .row .card {
         width: 17rem !important;
         margin-left: 0px !important;
         margin-right: 0px !important;
     }
-    #The-Right-Courses-For-You .row .card,#Pricing .row .card{
+
+    #The-Right-Courses-For-You .row .card,
+    #Pricing .row .card {
         width: 17rem;
-        margin-left:0px !important;
+        margin-left: 0px !important;
         margin-right: 0px !important;
     }
-    #Pricing .row .card,#Start-We-Have-Best-Education .row .card,#Browse-Top-Category .row .card{
+
+    #Pricing .row .card,
+    #Start-We-Have-Best-Education .row .card,
+    #Browse-Top-Category .row .card {
         width: 17rem !important;
     }
-    .icon1-part1{
+
+    .icon1-part1 {
         padding-right: 90px;
     }
+
     #The-Right-Courses-For-You .row .card .part3 {
         gap: 0px 64px;
     }
-    #The-Right-Courses-For-You .row .card .part1::after{
-    width: 14rem;
+
+    #The-Right-Courses-For-You .row .card .part1::after {
+        width: 14rem;
     }
 
 }
