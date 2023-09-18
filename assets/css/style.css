@@ -556,7 +556,7 @@ footer,
     }
 
     #The-Right-Courses-For-You .row .card img {
-        width: 18rem;
+        width: 17rem;
     }
 
     .bg-light {
@@ -590,7 +590,7 @@ footer,
 
     #The-Right-Courses-For-You .row .card,
     #Pricing .row .card {
-        width: 18rem;
+        width: 17rem;
         margin-left: 0px !important;
         margin-right: 0px !important;
     }
@@ -602,15 +602,15 @@ footer,
     }
 
     .icon1-part1 {
-        padding-right: 106px;
+        padding-right: 89px;
     }
 
     #The-Right-Courses-For-You .row .card .part3 {
-        gap: 0px 79px;
+        gap: 0px 63px;
     }
 
     #The-Right-Courses-For-You .row .card .part1::after {
-        width: 15rem;
+        width: 14rem;
     }
 
 }
