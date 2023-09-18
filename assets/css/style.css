@@ -547,6 +547,9 @@ footer,
     .navbar-brand {
         display: none;
     }
+    #Tesimonials img{
+        width: 75px !important;
+    }
 
     #The-Right-Courses-For-You .row .card img {
         width: 18rem;
