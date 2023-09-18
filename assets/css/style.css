@@ -165,7 +165,8 @@ header {
 #Become-an-Instructor,
 #About-Us,
 #The-Right-Courses-For-You,
-#School-News {
+#School-News
+#Testimonials {
     background-color: #f8f9fa;
     position: relative;
 }
@@ -395,39 +396,28 @@ header {
 
 
 
-
-.carousel-indicators button .cercil {
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
-    background-color: black;
-    position: relative;
-    top: -13px;
+#Tesimonials img{
+    width: 75px;
 }
 
-#Testimonials .card-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.bgGray{
+    background-color: #f8f9fa;
 }
-
-#Testimonials .card-body img {
-    width: 100px;
-    border-radius: 50%;
+.textBlue{
+    color: #136ad5;
 }
-
-#Testimonials {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: relative;
+.bgBlue{
+    background-color: #136ad5;
 }
-
+#corousal-indecator{
+    width: 10px;
+    height: 10px ;
+    border-radius: 50%  ;
+    background-color: #666666;
+}
+#corousal-indecator.active{
+    background-color: #136ad5;
+}
 .accordion-header button::after {
     content: '' !important;
     width: 0px;
@@ -559,7 +549,7 @@ footer,
     }
 
     #The-Right-Courses-For-You .row .card img {
-        width: 17rem;
+        width: 18rem;
     }
 
     .bg-light {
@@ -585,10 +575,6 @@ footer,
         width: 250px !important;
     }
 
-    .carousel-item img {
-        height: 100vh !important;
-    }
-
     #School-News .row .card {
         width: 17rem !important;
         margin-left: 0px !important;
@@ -597,7 +583,7 @@ footer,
 
     #The-Right-Courses-For-You .row .card,
     #Pricing .row .card {
-        width: 17rem;
+        width: 18rem;
         margin-left: 0px !important;
         margin-right: 0px !important;
     }
@@ -609,15 +595,15 @@ footer,
     }
 
     .icon1-part1 {
-        padding-right: 80px;
+        padding-right: 106px;
     }
 
     #The-Right-Courses-For-You .row .card .part3 {
-        gap: 0px 55px;
+        gap: 0px 79px;
     }
 
     #The-Right-Courses-For-You .row .card .part1::after {
-        width: 14rem;
+        width: 15rem;
     }
 
 }
