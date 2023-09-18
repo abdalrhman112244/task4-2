@@ -556,7 +556,7 @@ footer,
     }
 
     #The-Right-Courses-For-You .row .card img {
-        width: 16rem;
+        width: 17rem;
     }
 
     .bg-light {
@@ -583,14 +583,14 @@ footer,
     }
 
     #School-News .row .card {
-        width: 16rem !important;
+        width: 17rem !important;
         margin-left: 0px !important;
         margin-right: 0px !important;
     }
 
     #The-Right-Courses-For-You .row .card,
     #Pricing .row .card {
-        width: 16rem;
+        width: 17rem;
         margin-left: 0px !important;
         margin-right: 0px !important;
     }
@@ -610,7 +610,7 @@ footer,
     }
 
     #The-Right-Courses-For-You .row .card .part1::after {
-        width: 13rem;
+        width: 14rem;
     }
 
 }
