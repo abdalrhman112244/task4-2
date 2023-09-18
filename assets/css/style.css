@@ -444,10 +444,12 @@ header {
 .accordion-header button span {
     background-color: black;
     height: 3px;
+    border-radius: 10px;
     position: absolute;
-    width: 90%;
+    width: 50%;
     left: 0px;
     transition: all 0.3s ease;
+    margin:0px 8px;
 }
 
 .accordion-header button span:first-child {
@@ -456,9 +458,10 @@ header {
 }
 
 .accordion-header button span:last-child {
-    width: 70%;
+    width: 50%;
     top: 14px;
-    left: 6px;
+    left: 2px;
+    border-radius: 10px;
     transform: rotate(90deg);
 }
 
